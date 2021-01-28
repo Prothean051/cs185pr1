@@ -5,30 +5,67 @@
     <link rel = "stylesheet" href = "style.css">
     <title>Video</title>
 </head>
-<nav>
-    <a href ="text.html">Text</a>
-    <a href ="image.html">Image</a>
-    <a href ="video.html">Video</a>
-    <a href ="table.html">Table</a>
-</nav>
-<h1>Videos</h1>
+
 <style>
     video {
-        padding: 20px;
-        width:25%;
+        width: 100%;
     }
 </style>
 <body>
-    <div style="text-align:center;">
-    <video src="videos/video.mp4" controls>
-        this broke I guess :\
-    </video>
-    <video src="videos/video (1).mp4" controls>
-        this broke I guess :\
-    </video>
-    <video src="videos/Pexels Videos 1526909.mp4" controls>
-        this broke I guess :\
-    </video>
+    <nav>
+        <a href ="text.html">Text</a>
+        <a href ="image.html">Image</a>
+        <a href ="video.html" style="background-color: black; color: white;">Video</a>
+        <a href ="table.html">Table</a>
+        <a href ="email.html">Email</a>
+    </nav>
+    <h1>Videos</h1>
+    <div class="outer-grid">
+        <div class="inner-grid">
+            <video id="salmon" src="videos/video.mp4" controls>
+                this broke I guess :\
+            </video>
+        </div>
+        <div class="inner-grid">
+            <video id="dinner" src="videos/video (1).mp4" controls>
+                this broke I guess :\
+            </video>
+        </div>
+        <div class="inner-grid">
+            <video id="seal" src="videos/Pexels Videos 1526909.mp4" controls>
+                this broke I guess :\
+            </video>
+        </div>
+        <div class="inner-grid">
+            <video id="taxi" src="videos/Video Of People Waiting For A Taxi On A Rainy Night.mp4" controls>
+                this broke I guess :\
+            </video>
+        </div>
     </div>
+    <div id="light">
+        <video id="salmonlight" controls>
+            <source src="videos/video.mp4" type="video/mp4">
+          </video>
+    </div>
+    <div id="light2">
+        <video id="dinnerlight" controls>
+            <source src="videos/video (1).mp4" type="video/mp4">
+          </video>
+    </div>
+    <div id="light3">
+        <video id="seallight" controls>
+            <source src="videos/Pexels Videos 1526909.mp4" type="video/mp4">
+          </video>
+    </div>
+    <div id="light4">
+        <video id="taxilight" controls>
+            <source src="videos/Video Of People Waiting For A Taxi On A Rainy Night.mp4" type="video/mp4">
+          </video>
+    </div>
+    <div id="fade" onClick="lightbox_close()"></div>
+    <div id="fade2" onClick="lightbox_close2()"></div>
+    <div id="fade3" onClick="lightbox_close3()"></div>
+    <div id="fade4" onClick="lightbox_close4()"></div>
+    <script src="videoLightbox.js"></script>
 </body>
 </html>
