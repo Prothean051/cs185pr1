@@ -17,11 +17,20 @@
     <div class="child">
         <form>
             <label for="email">Your Email Address:</label><br>
-            <input type="text" id="fName" value="Your Email Here">
+            <input type="text" id="email" value="Your Email Here">
             <br>
-            <input type="submit" value="Submit">
+            <button type="submit" onclick="validate(document.getElementById('email').value)">Submit</button>
         </form>
     </div>
 </div>
+<script>
+    function validate(s) {
+        if(s.includes('@')&&(s.slice(-4)==('.edu')||s.slice(-4)==('.com'))){
+            alert("Valid email detected. Have a nice day.");
+        } else {
+            alert("Invalid email detected. Your IP Address has been forwarded to the CIA.");
+        }
+    }
+</script>
 </body>
 </html>
