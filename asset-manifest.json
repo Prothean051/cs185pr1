@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cs185pr1/static/css/main.884b9115.chunk.css",
+    "main.js": "/cs185pr1/static/js/main.060f478b.chunk.js",
+    "main.js.map": "/cs185pr1/static/js/main.060f478b.chunk.js.map",
+    "runtime-main.js": "/cs185pr1/static/js/runtime-main.d2e2cbb2.js",
+    "runtime-main.js.map": "/cs185pr1/static/js/runtime-main.d2e2cbb2.js.map",
+    "static/js/2.065499a4.chunk.js": "/cs185pr1/static/js/2.065499a4.chunk.js",
+    "static/js/2.065499a4.chunk.js.map": "/cs185pr1/static/js/2.065499a4.chunk.js.map",
+    "static/js/3.0b0f6058.chunk.js": "/cs185pr1/static/js/3.0b0f6058.chunk.js",
+    "static/js/3.0b0f6058.chunk.js.map": "/cs185pr1/static/js/3.0b0f6058.chunk.js.map",
+    "index.html": "/cs185pr1/index.html",
+    "static/css/main.884b9115.chunk.css.map": "/cs185pr1/static/css/main.884b9115.chunk.css.map",
+    "static/js/2.065499a4.chunk.js.LICENSE.txt": "/cs185pr1/static/js/2.065499a4.chunk.js.LICENSE.txt",
+    "static/media/Pexels Videos 1526909.2962d193.mp4": "/cs185pr1/static/media/Pexels Videos 1526909.2962d193.mp4",
+    "static/media/Video Of People Waiting For A Taxi On A Rainy Night.5285d983.mp4": "/cs185pr1/static/media/Video Of People Waiting For A Taxi On A Rainy Night.5285d983.mp4",
+    "static/media/video (1).2489d161.mp4": "/cs185pr1/static/media/video (1).2489d161.mp4",
+    "static/media/video.13b7edf6.mp4": "/cs185pr1/static/media/video.13b7edf6.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2e2cbb2.js",
+    "static/js/2.065499a4.chunk.js",
+    "static/css/main.884b9115.chunk.css",
+    "static/js/main.060f478b.chunk.js"
+  ]
+}
